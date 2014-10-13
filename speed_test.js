@@ -23,7 +23,7 @@ SpeedTest.prototype = {
   }
 }
 
-// possible use:
+// possible use case:
 // var test = new SpeedTest(someFunc, parameters);
 // test.startTest();
 // return would be: # Average execution across 10000: 0.0041

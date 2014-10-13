@@ -18,5 +18,5 @@ Object.prototype.findOwnerProperty = function(propName){
   return "No property found!";
 };
 
-  // possible use:
+  // possible use case:
   // testObj.findOwnerOfProperty("testProperty")
