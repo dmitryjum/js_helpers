@@ -1,0 +1,1 @@
+This repository contains helpful tools/methods/classes for javascript that one can use for optimization of their code or debugging or anything else. Current files have extensive comments in them.
