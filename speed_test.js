@@ -11,13 +11,13 @@ function SpeedTest(testImplement, testParams, repetitions) {
 SpeedTest.prototype = {
   startTest: function(){
     var beginTime, endTime, sumTimes = 0;
-    for (var i = 0; x = this.repetitions; i < x; i++){
+    for (var i = 0, x = this.repetitions; i < x; i++){
       beginTime = +new Date(); // start the clock for this current rep.
       this.testImplement(this.testParams); // run the code for this rep.
       endTime = +new Date(); // stop the clock
       sumTimes += endTime - beginTime; // here we add individual time to total loop time
     }
-      this.average = sumeTimes / this.repetitions;
+      this.average = sumTimes / this.repetitions;
       // message with average time
       return console.log("Average execution across " + this.repetitions + ": " + this.average);
   }
